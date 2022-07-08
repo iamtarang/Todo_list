@@ -1,0 +1,87 @@
+body{
+    background: #352f5b;
+}
+/* Landing Page */
+.heading{
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 80px;
+    text-shadow: 3px 3px #131316;
+}
+.heading span{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    text-shadow: 5px 5px #131316;
+}
+.title p{
+    margin-left: 50px;
+    font-size: 22px;
+    font-style: oblique;
+    text-align: justify;
+    text-decoration: underline;
+}
+.fa-circle-check{
+    margin-left: 5px;
+    --fa-animation-duration: 1s;
+    --fa-flip-x: 0.5;
+    --fa-flip-angle: 90deg;
+    --fa-animation-iteration-count: 2;
+}
+
+i:hover{
+    --fa-animation-duration: 1s;
+    --fa-flip-x: 0.5;
+    --fa-flip-angle: 90deg;
+    --fa-animation-iteration-count: 1;
+}
+
+.button1{
+    float: right;
+    margin-right: 60px;
+    text-align: center;
+    text-decoration: none;
+    background: #423a6f;
+    padding: 55px 55px;
+    font-size: 80px;
+    border-radius: 50%;
+    text-shadow: 3px 3px #131316;
+    color: white;
+}
+.button-text{
+    font-size: 24px;
+}
+a:hover{
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Todo Page */
+.container{
+    max-width: 400px;
+}
+input[type=text],
+input[type=text]:focus{
+    color: #fff;
+    border: none;
+    background: rgba(0 ,0 , 0, 0.2);
+    max-width: 400px;
+}
+.todos li{
+    background: #423a6f;
+}
+.delete{
+    cursor: pointer;
+}
+.filtered{
+    display: none !important;
+}
+
+
+
+
+/* i.fa-circle-check:hover{
+    --fa-animation-duration: 1.5s;
+    --fa-flip-x: 0.5;
+    --fa-flip-angle: 90deg;
+    --fa-animation-iteration-count: 2;
+} */
